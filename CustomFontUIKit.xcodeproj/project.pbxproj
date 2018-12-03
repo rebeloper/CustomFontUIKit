@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55BDF48B82FF9223FBB1C73D /* Pods_CustomFontUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E0B9588F50BAA56EC439E8 /* Pods_CustomFontUIKit.framework */; };
 		C9A8CD5721B5409E00C18253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A8CD5621B5409E00C18253 /* AppDelegate.swift */; };
 		C9A8CD5921B5409E00C18253 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A8CD5821B5409E00C18253 /* RootViewController.swift */; };
 		C9A8CD5B21B5409F00C18253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A8CD5A21B5409F00C18253 /* Assets.xcassets */; };
 		C9A8CD5E21B5409F00C18253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A8CD5C21B5409F00C18253 /* LaunchScreen.storyboard */; };
+		C9A8CD6621B540D400C18253 /* KOMTIT__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9A8CD6521B540D400C18253 /* KOMTIT__.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29E0B9588F50BAA56EC439E8 /* Pods_CustomFontUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomFontUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C816E7B2C2745A177276A32F /* Pods-CustomFontUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFontUIKit.debug.xcconfig"; path = "Target Support Files/Pods-CustomFontUIKit/Pods-CustomFontUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C9A8CD5321B5409E00C18253 /* CustomFontUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFontUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A8CD5621B5409E00C18253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9A8CD5821B5409E00C18253 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C9A8CD5A21B5409F00C18253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A8CD5D21B5409F00C18253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9A8CD5F21B5409F00C18253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A8CD6521B540D400C18253 /* KOMTIT__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KOMTIT__.ttf; sourceTree = "<group>"; };
+		ED1C194459F8336C6BB33677 /* Pods-CustomFontUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFontUIKit.release.xcconfig"; path = "Target Support Files/Pods-CustomFontUIKit/Pods-CustomFontUIKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BDF48B82FF9223FBB1C73D /* Pods_CustomFontUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32F08A1C652182DBDA9321E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29E0B9588F50BAA56EC439E8 /* Pods_CustomFontUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38D7681C8C7BD3E9A8C11C0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C816E7B2C2745A177276A32F /* Pods-CustomFontUIKit.debug.xcconfig */,
+				ED1C194459F8336C6BB33677 /* Pods-CustomFontUIKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C9A8CD4A21B5409E00C18253 = {
 			isa = PBXGroup;
 			children = (
 				C9A8CD5521B5409E00C18253 /* CustomFontUIKit */,
 				C9A8CD5421B5409E00C18253 /* Products */,
+				38D7681C8C7BD3E9A8C11C0C /* Pods */,
+				32F08A1C652182DBDA9321E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +79,7 @@
 		C9A8CD5521B5409E00C18253 /* CustomFontUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C9A8CD6521B540D400C18253 /* KOMTIT__.ttf */,
 				C9A8CD5621B5409E00C18253 /* AppDelegate.swift */,
 				C9A8CD5821B5409E00C18253 /* RootViewController.swift */,
 				C9A8CD5A21B5409F00C18253 /* Assets.xcassets */,
@@ -68,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9A8CD6221B5409F00C18253 /* Build configuration list for PBXNativeTarget "CustomFontUIKit" */;
 			buildPhases = (
+				B2DD6A8D8F4BAF9E0EBEBB26 /* [CP] Check Pods Manifest.lock */,
 				C9A8CD4F21B5409E00C18253 /* Sources */,
 				C9A8CD5021B5409E00C18253 /* Frameworks */,
 				C9A8CD5121B5409E00C18253 /* Resources */,
+				C9B3BE5260B8F525AB225183 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,10 +151,58 @@
 			files = (
 				C9A8CD5B21B5409F00C18253 /* Assets.xcassets in Resources */,
 				C9A8CD5E21B5409F00C18253 /* LaunchScreen.storyboard in Resources */,
+				C9A8CD6621B540D400C18253 /* KOMTIT__.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2DD6A8D8F4BAF9E0EBEBB26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomFontUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B3BE5260B8F525AB225183 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomFontUIKit/Pods-CustomFontUIKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomFontUIKit/Pods-CustomFontUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9A8CD4F21B5409E00C18253 /* Sources */ = {
@@ -268,6 +346,7 @@
 		};
 		C9A8CD6321B5409F00C18253 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C816E7B2C2745A177276A32F /* Pods-CustomFontUIKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +365,7 @@
 		};
 		C9A8CD6421B5409F00C18253 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1C194459F8336C6BB33677 /* Pods-CustomFontUIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
